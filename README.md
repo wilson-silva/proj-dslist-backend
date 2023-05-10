@@ -4,24 +4,23 @@ onde a mesma disponibiliza o recurso games e listas de games, com este conteúdo
 sendo possível revisar alguns conceitos e aprimorar ainda mais meus conhecimentos.
 
 ### Aula 1: Projeto estruturado 
-- Conceitos
-  - Sistemas web e recursos
-  - Cliente/Servidor, HTTP, JSON
-  - Padrão REST para API web
-- Estruturação de projeto Spring Rest
-- Entidades e ORM
-- Database seeding
-- Padrão camadas
-- Controle, service, repository
-- Padrão DTO
+- API REST
+- Java, Spring Boot
+- ORM, JPA
+- Camadas, DTO
 
 ### Aula 2: Domínio e consultas
-- Relacionamentos N-N
-- Classe de associação, embedded id
-- Consultas SQL no Spring Data JPA
+- Modelo de domínio
+- Consultas SQL
 - Projections
+- Embedded id
 
 ### Aula 3: Deploy e CORS 
+- Ambiente local com Docker
+- Postgresql
+- Cors
+- Deploy CI/CD no Railway
+
 ### Aula 4: Endpoint especial
 ### Aula 5: Resumão e reforço do aprendizado 
 ### Oficina: Avançando na modelagem de dados
@@ -43,7 +42,7 @@ sendo possível revisar alguns conceitos e aprimorar ainda mais meus conheciment
 	<version>3.1.0</version> <!--$NO-MVN-MAN-VER$ -->
 </plugin>
 ```
-
+ 
 ### application.properties
 
 ```

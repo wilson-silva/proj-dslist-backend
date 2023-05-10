@@ -1,25 +1,27 @@
 package com.devsuperior.dslist.entities;
 
-import java.util.Objects;
-
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 
+import java.io.Serializable;
+import java.util.Objects;
+
 
 @Embeddable
-public class BelongingPK {
-	
+public class BelongingPK implements Serializable {
+
+	private static final long serialVersionUID = -8562206293270536197L;
 	@ManyToOne
 	@JoinColumn(name = "game_id")
 	private Game game;
-	
+
 	@ManyToOne
 	@JoinColumn(name = "list_id")
 	private GameList gameList;
-	
+
 	public BelongingPK() {
-		
+
 	}
 
 	public BelongingPK(Game game, GameList gameList) {
@@ -59,9 +61,6 @@ public class BelongingPK {
 		BelongingPK other = (BelongingPK) obj;
 		return Objects.equals(game, other.game) && Objects.equals(gameList, other.gameList);
 	}
-	
-	
-	
-	
+
 
 }
