@@ -24,15 +24,16 @@ public class GameController {
 	private GameService gameService;
 
 	// -------------------------------------------------------------------------
+	@GetMapping(value = "/{id}")
+	public GameDTO findById(@PathVariable Long id) {
+		GameDTO result = gameService.findById(id);
+		return result;
+	}
+
+	// -------------------------------------------------------------------------
 	@GetMapping
 	public List<GameMinDTO> findAll() {
 		return gameService.findAll();
 	}
-
-	// -------------------------------------------------------------------------
-	 @GetMapping("/{id}")
-	    public ResponseEntity<GameDTO> findById(@PathVariable Long id){
-	        return ResponseEntity.ok(new GameDTO(gameService.findById(id)));
-	    }
 
 }
