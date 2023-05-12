@@ -9,7 +9,7 @@ public class GameMinDTO {
 
 	private Long id;
 	private String title;
-	private Integer year;
+	private Integer gameYear;
 	private String imgUrl;
 	private String shortDescription;
 }

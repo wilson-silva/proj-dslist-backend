@@ -10,7 +10,7 @@ public class GameDTO {
 
 	private Long id;
 	private String title;
-	private Integer year;
+	private Integer gameYear;
 	private String genre;
 	private String platforms;
 	private Double score;

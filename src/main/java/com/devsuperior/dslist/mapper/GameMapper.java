@@ -20,7 +20,7 @@ public interface GameMapper {
     GameDTO toGameDTO(Game game);
 
     List<GameMinDTO> toListGameMinDTO(List<Game> games);
-    @Mapping(source = "gameYear", target = "year")
+
     List<GameMinDTO> toListGameMinDTOProj(List<GameMinProjection> games);
 
     List<GameListDTO> toListGameListDTO(List<GameList> games);
