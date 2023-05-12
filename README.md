@@ -186,7 +186,7 @@ verificar se o docker está rodando antes, caso não esteja, dar o comando:
 
 ### Aplicação na nuvem com Railway
 
-![Modelo Conceitual](https://https://github.com/wilson-silva/dslist-backend/blob/main/railway.png)
+![exemplo railway](https://github.com/wilson-silva/dslist-backend/blob/main/railway.png)
 
 Aplicação implantada na nuvem com esteira de CI/CD
 
