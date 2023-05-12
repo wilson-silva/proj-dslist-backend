@@ -7,6 +7,7 @@ import com.devsuperior.dslist.entities.Game;
 import com.devsuperior.dslist.entities.GameList;
 import com.devsuperior.dslist.projections.GameMinProjection;
 import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
 import java.util.List;
@@ -19,7 +20,7 @@ public interface GameMapper {
     GameDTO toGameDTO(Game game);
 
     List<GameMinDTO> toListGameMinDTO(List<Game> games);
-
+    @Mapping(source = "gameYear", target = "year")
     List<GameMinDTO> toListGameMinDTOProj(List<GameMinProjection> games);
 
     List<GameListDTO> toListGameListDTO(List<GameList> games);
