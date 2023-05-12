@@ -186,7 +186,10 @@ verificar se o docker está rodando antes, caso não esteja, dar o comando:
 
 ### Aplicação na nuvem com Railway
 
-Feito deploy da aplicação no Railway
+![Modelo Conceitual](https://https://github.com/wilson-silva/dslist-backend/blob/main/railway.png)
+
+Aplicação implantada na nuvem com esteira de CI/CD
+
 Para facilitar a consulta no postman configurar Environments
 host - https://dslist-backend-production-e38a.up.railway.app
 
