@@ -177,5 +177,9 @@ INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 10, 4);
 ```
 
 ### Script Docker Compose
-
 https://gist.github.com/acenelio/5e40b27cfc40151e36beec1e27c4ff71
+
+Este script no meu desenvolvimento não funcionou , então criei um novo arquivo docker-compose.yml e coloquei
+ele dentro da estrutura do projeto e fiz algumas alterações, testei e o mesmo funcionou.
+
+Obs.: Usar o arquivo dentro do projeto, para testar é so abrir o terminal wsl2 via ubuntu na pasta do projeto e dar o comando "docker compose up"
