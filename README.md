@@ -190,8 +190,8 @@ verificar se o docker está rodando antes, caso não esteja, dar o comando:
 
 Aplicação implantada na nuvem com esteira de CI/CD
 
-Para facilitar a consulta no postman configurar Environments
-host - https://dslist-backend-production-e38a.up.railway.app
+Porém para testes utilizar o postman com a url padrão, pois as horas nesta nuvem são limitadas.
+host - localhost:8080
 
 - {{host}}/games
 - {{host}}/lists/1/games
