@@ -179,10 +179,19 @@ INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 10, 4);
 ### Script Docker Compose
 https://gist.github.com/acenelio/5e40b27cfc40151e36beec1e27c4ff71
 
-Este script no meu desenvolvimento não funcionou , então criei um novo arquivo docker-compose.yml e coloquei
-ele dentro da estrutura do projeto e fiz algumas alterações, testei e o mesmo funcionou.
-
-Obs.: Usar o arquivo dentro do projeto, para testar é so abrir o terminal wsl2 via ubuntu na pasta do projeto e dar o comando "docker compose up", 
+Obs.: Fiz algumas alterações no script e usei ele dentro da pasta do projeto.
+Para testar é so abrir o terminal(Ubuntu) na pasta do projeto e dar o comando "docker compose up", 
 verificar se o docker está rodando antes, caso não esteja, dar o comando:
 "sudo service docker start".
 
+### Aplicação na nuvem com Railway
+
+Feito deploy da aplicação no Railway
+Para facilitar a consulta no postman configurar Environments
+host - https://dslist-backend-production-e38a.up.railway.app
+
+- {{host}}/games
+- {{host}}/lists/1/games
+- {{host}}/games/2
+- {{host}}/lists
+- {{host}}/lists/1
