@@ -22,9 +22,7 @@ public class BelongingPK implements Serializable {
     private GameList gameList;
 
     public BelongingPK() {
-
     }
-
     public BelongingPK(Game game, GameList gameList) {
         this.game = game;
         this.gameList = gameList;

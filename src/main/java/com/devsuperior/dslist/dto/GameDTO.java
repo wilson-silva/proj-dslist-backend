@@ -7,7 +7,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class GameDTO {
-
 	private Long id;
 	private String title;
 	private Integer gameYear;

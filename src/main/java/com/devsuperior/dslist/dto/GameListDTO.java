@@ -6,7 +6,6 @@ import lombok.Setter;
 @Setter
 @Getter
 public class GameListDTO {
-
 	private Long id;
 	private String name;
 }
