@@ -22,6 +22,9 @@ sendo possível revisar alguns conceitos e aprimorar ainda mais meus conheciment
 - Deploy CI/CD no Railway
 
 ### Aula 4: Endpoint especial
+- Design e implementação de endepoint
+- Verbo HTTP e idempotência
+
 ### Aula 5: Resumão e reforço do aprendizado 
 ### Oficina: Avançando na modelagem de dados
 
